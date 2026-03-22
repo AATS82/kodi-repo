@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.mi-iptv"
+       name="Mi IPTV"
+       version="1.0.0"
+       provider-name="TuNombre">
+
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="xbmc.gui" version="5.0.1"/>
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Reproductor IPTV desde lista M3U</summary>
+    <description>Lee una lista M3U y permite reproducir canales IPTV directamente desde Kodi.</description>
+    <platform>all</platform>
+  </extension>
+
+</addon>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <category label="General">
+    <setting id="m3u_url" type="text" label="URL del archivo M3U" default="" />
+  </category>
+</settings>

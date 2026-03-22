@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons><addon id="repository.mi-iptv" name="Mi IPTV Repo" version="1.0.0" provider-name="TuNombre">
+
+  <extension point="xbmc.addon.repository" name="Mi IPTV Repo">
+    <info compressed="false">https://TU-USUARIO.github.io/kodi-repo/addons.xml</info>
+    <checksum>https://TU-USUARIO.github.io/kodi-repo/addons.xml.md5</checksum>
+    <datadir zip="true">https://TU-USUARIO.github.io/kodi-repo/</datadir>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Repositorio IPTV para Kodi 14 Helix</summary>
+    <description>Repositorio personal con add-on IPTV compatible con Kodi 14.2</description>
+    <platform>all</platform>
+  </extension>
+
+</addon><addon id="plugin.video.mi-iptv" name="Mi IPTV" version="1.0.0" provider-name="TuNombre">
+
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="xbmc.gui" version="5.0.1" />
+  </requires>
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+    <summary>Reproductor IPTV desde lista M3U</summary>
+    <description>Lee una lista M3U y permite reproducir canales IPTV directamente desde Kodi.</description>
+    <platform>all</platform>
+  </extension>
+
+</addon></addons>

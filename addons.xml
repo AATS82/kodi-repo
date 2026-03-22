@@ -2,9 +2,9 @@
 <addons><addon id="repository.mi-iptv" name="Mi IPTV Repo" version="1.0.0" provider-name="TuNombre">
 
   <extension point="xbmc.addon.repository" name="Mi IPTV Repo">
-    <info compressed="false">https://AATS82.github.io/kodi-repo/addons.xml</info>
-    <checksum>https://AATS82.github.io/kodi-repo/addons.xml.md5</checksum>
-    <datadir zip="true">https://AATS82.github.io/kodi-repo/</datadir>
+    <info compressed="false">https://aats82.github.io/kodi-repo/addons.xml</info>
+    <checksum>https://aats82.github.io/kodi-repo/addons.xml.md5</checksum>
+    <datadir zip="true">https://aats82.github.io/kodi-repo/</datadir>
   </extension>
 
   <extension point="xbmc.addon.metadata">
